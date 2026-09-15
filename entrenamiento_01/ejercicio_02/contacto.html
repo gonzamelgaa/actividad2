@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetario | Contacto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="recetario">
+        <header class="site_header">
+            <a href="index.html">HOME</a>
+            <span>|</span>
+            <a href="contacto.html">CONTACTO</a>
+        </header>
+        <main class="contacto_main">
+            <form class="contacto_form" action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input id="nombre" name="nombre" type="text" required>
+                <label for="email">E-mail:</label>
+                <input id="email" name="email" type="email" required>
+                <label for="telefono">Tel:</label>
+                <input id="telefono" name="telefono" type="tel" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="6" required></textarea>
+                <div class="form_acciones">
+                    <button type="submit">Enviar</button>
+                    <a class="boton_cancelar" href="index.html">Cancelar</a>
+                </div>
+            </form>
+        </main>
+        <footer class="site_footer">Todos los derechos reservados</footer>
+    </div>
+</body>
+</html>

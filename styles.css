@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 2rem 1rem;
+    background-color: whitesmoke;
+    color: black;
+    font-family: Arial;
+}
+
+.main_index{
+    width: 80%;
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: white;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+}
+
+.header_index{
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 0.1rem solid lightgray;
+}
+
+.header_index p {
+    margin: 0.5rem 0;
+}
+
+.header_index h1 {
+    margin: 1rem 0;
+    font-size: 2rem;
+}
+
+.entrenamiento_section{
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: white;
+    border: 0.1rem solid lightgray;
+    border-radius: 0.75rem;
+}
+
+.entrenamiento_section h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+
+.lista_ejercicios{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.lista_ejercicios li {
+    margin: 0;
+}
+
+.lista_ejercicios a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 0.75rem 1rem;
+    background-color: white;
+    border: 0.1rem solid lightgray;
+    color: black;
+    text-decoration: none;
+    border-radius: 0.4rem;
+}
+
+.footer_index{
+    text-align: center;
+    font-size: 0.9rem;
+}

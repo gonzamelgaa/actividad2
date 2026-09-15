@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background: white;
+    font-family: Arial;
+    color: black;
+    overflow-x: hidden;
+}
+
+.recetario {
+    width: 80%;
+    min-height: 100vh;
+    margin: 0 auto;
+    background: whitesmoke;
+    border: 0.1rem solid #222;
+}
+
+.fixed_header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    padding: 1.25rem;
+    border-bottom: 0.1rem solid #222;
+    background: whitesmoke;
+    text-align: center;
+}
+
+.fixed_header a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.fixed_header {
+    margin-right: 1rem;
+    padding: 0.5rem 0.75rem;
+    border: 0.1rem solid black;
+    background: white;
+}
+
+.index_section, .detalles_receta {
+    width: 86%;
+    min-height: 75vh;
+    margin: 0 auto;
+    padding: 4rem 3rem;
+    scroll-margin-top: 4.5rem;
+}
+
+.index_section {
+    min-height: 100vh;
+}
+
+.index_section li {
+    margin: 1rem 0;
+}
+
+.index_section a {
+    color: blue;
+    text-decoration: none;
+}
+
+.detalles_receta {
+    margin-bottom: 3rem;
+    background: lightblue;
+    border: 0.1rem solid black;
+}
+
+.detalles_receta h2 {
+    display: inline-block;
+    width: 75%;
+    margin: 0 0 2rem;
+}
+
+.detalles_receta a {
+    color: black;
+    font-weight: bold;
+}
+
+.detalles_receta p {
+    max-width: 55rem;
+    font-size: 1.15rem;
+    line-height: 1.6;
+}
+
